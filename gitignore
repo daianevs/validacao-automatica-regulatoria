@@ -1,0 +1,33 @@
+# Arquivos sensíveis — nunca versionar
+.env
+*.gz
+*.csv
+
+# Relatórios gerados
+*.xlsx
+*_parcial.xlsx
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# Drivers (não versionar binários)
+msedgedriver.exe
+chromedriver.exe
+geckodriver.exe
+
+# Screenshots de debug
+debug_*.png
